@@ -4,6 +4,7 @@ author: "Shuyuan Zheng"
 date: "2024-03-05"
 format: pdf
 bibliography: references.bib
+thanks: "Code can be found at: https://github.com/EAsUpluckYX/TUTmarch6"
 ---
 
 ```{r}
