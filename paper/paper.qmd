@@ -1,0 +1,41 @@
+---
+title: "Auxiliary Variables for Enhanced Survey Accuracy: Strategies to Combat Nonresponse Bias"
+author: "Shuyuan Zheng"
+date: "2024-03-05"
+format: pdf
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(here)
+```
+
+# Abstract
+
+When we do surveys, we're trying to get good answers quickly from a sample of people that represent everyone. But, it's getting harder to get people to respond, especially with different ways of collecting answers like online surveys. This paper looks at how people's willingness to answer surveys has changed, especially with the shift to online surveys, and what this means for the quality of the survey results. We're also going to talk about ways to adjust when not everyone responds, to still get reliable results.
+
+# Introduction
+
+Surveys help us collect important information from different areas like health, politics, and consumer habits. However, they only work well if enough people answer them. Lately, fewer people are responding to surveys, no matter how we try to reach them—online, by phone, or in person. This drop in responses makes it tough to trust the results we get from surveys. One way to tackle this problem is by using something called auxiliary variables. These are extra pieces of information we already know about everyone in the survey, like their age or where they live. By smartly using these extra bits of info, we can adjust our survey results to better reflect the whole group we're interested in, even if not everyone answers our questions. This approach helps us keep our survey results reliable and useful, despite the challenge of getting everyone to respond.
+
+# Declining Response Rates and Their Impact on Survey Quality
+
+## Causes of Declining Response Rates
+
+The issue of declining response rates across various modes of data collection—such as face-to-face interviews, telephone surveys, and online questionnaires—is increasingly concerning for researchers and statisticians. This decline has been thoroughly documented in recent literature, including in special issues dedicated to nonresponse rates and adjustments. For example, Williams and Brick (2018) @williams2018trends and Dutwin and Buskirk (2020) @dutwin2020telephone observe declining response rates in face-to-face and telephone surveys, respectively, underscoring a widespread trend across traditional data collection methods. Similarly, Daikeler, Bošnjak, and Lozar Manfreda (2020) @daikeler2020web report on the comparative decline of web survey response rates, indicating a broader challenge across both traditional and digital survey modes.
+
+With changing response rates, there is a need for innovative nonresponse adjustments. @sarndal2014accuracy This section explores the use of auxiliary variables for improving survey representativeness and reducing bias.
+
+## Addressing the Challenge
+To mitigate the effects of declining response rates, researchers employ methodologies such as the use of auxiliary variables. These variables, additional data known about all individuals in a target population, allow for adjustments to survey results to compensate for nonresponse bias. @kalton2003weighting Techniques like weighting adjustments and imputation are often used alongside auxiliary variables to improve the accuracy and representativeness of survey results.
+
+In practice, identifying effective auxiliary variables can be more challenging than it seems, especially when auxiliary variables on sample frames are weak. @wagner2014level However, research by Wagner et al. (2014) and Peytchev, Presser, and Zhang (2018) suggests that certain variables, such as measures of civic engagement including volunteering and voting, are associated with survey participation and can improve adjustment methods. This indicates that including questions related to past voting history or current volunteering activities in surveys for the purpose of nonresponse adjustment—even when these are not the main focus of the survey and despite overreporting issues for both behaviors—seems like a viable strategy to improve post-survey adjustments.
+
+# Conclusion
+
+Surveys require methodological innovations and improvements in survey design and implementation. The proactive and strategic use of auxiliary variables, both in designing survey methodologies and in post-survey adjustments, offers a promising avenue for enhancing the representativeness of survey samples. The referenced literature illustrates both the potential and the challenges of this approach, suggesting that while auxiliary variables can significantly improve survey estimates, their selection and application require careful consideration and a nuanced understanding of the survey context. \newpage \# References
